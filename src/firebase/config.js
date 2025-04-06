@@ -8,13 +8,7 @@ import {getAuth} from 'firebase/auth'
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyByjtwv1su0jsjViIX40lITfWHko0AQ7vQ",
-  authDomain: "web-peliculas-react.firebaseapp.com",
-  projectId: "web-peliculas-react",
-  storageBucket: "web-peliculas-react.firebasestorage.app",
-  messagingSenderId: "571840446408",
-  appId: "1:571840446408:web:fb0575a6b47085f4fb0afd",
-  measurementId: "G-2DXH5JXJH0"
+//Datos privados de la base de datos en Firebase
 };
 
 // Initialize Firebase
