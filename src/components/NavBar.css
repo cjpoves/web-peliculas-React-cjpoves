@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+    background-color: #040A0F;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: yellow;
+}
+
+.navegacion {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+    .navegacion  {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+       
+        
+    }
+}
