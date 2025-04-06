@@ -7,7 +7,7 @@ Este proyecto es una aplicación web construida con React que utiliza la API de 
 - Ver las películas que están actualmente en cartelera.
 - Ver los próximos estrenos de películas.
 
-La aplicación también hace uso de `react-router` para dividir la página en diferentes secciones, proporcionando una experiencia de navegación fluida y dinámica.
+La aplicación también hace uso de `react-router` para dividir la página en diferentes secciones, proporcionando una experiencia de navegación fluida y dinámica. También utiliza la base de datos Firebase para el registro y autenticación de los usuarios.
 
 ## Ver la Aplicación en Vivo
 
@@ -19,6 +19,7 @@ Puedes ver la aplicación en vivo desplegada en [Netlify](https://web-peliculas-
 - **Películas en Tendencia**: Muestra las películas más populares y vistas actualmente en la plataforma.
 - **Películas en Cartelera**: Muestra las películas que se encuentran en cartelera en este momento.
 - **Próximos Estrenos**: Muestra las películas que serán estrenadas próximamente en los cines.
+- **LogIn y Registro de usuarios**: Los usuarios pueden registrarse y acceder a su cuenta.
 
 ## Tecnologías Utilizadas
 
@@ -26,3 +27,4 @@ Puedes ver la aplicación en vivo desplegada en [Netlify](https://web-peliculas-
 - **React Router**: Usado para manejar la navegación entre las diferentes secciones de la aplicación.
 - **TMDB API**: API pública para obtener información sobre películas, series y actores.
 - **Water-CSS**: Para los estilos y el diseño de la página.
+-  **Firebase*: Para la autenticación y el registro de usuarios. 
